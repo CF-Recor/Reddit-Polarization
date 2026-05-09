@@ -1,4 +1,4 @@
 clean_data/
 *.csv
 .idea/
-model_eurobert_political_1/
+**/model.safetensors

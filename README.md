@@ -12,7 +12,10 @@ Ce README liste les grandes étapes de réplication, en orientant vers des dossi
 5. Régression du score de toxicité par NLP &rarr; `regression_toxicity`
 6. Estimation des modèles économétriques &rarr; `time_series`
 
+## Ajout des datasets
+Pour reproduire les résultats, téléchargez les fichiers .csv présents sur ce [lien](https://www.dropbox.com/scl/fo/7oj8snoagj4my7oq1y5z3/AMcv6AY2zkoJPAd0vIEHBWg?rlkey=grbbl96123z8bt1njtgdrm6zj&st=livskc64&dl=0) Dropbox et placez les dans le dossier `clean_data`. Téléchargez également le fichier `model.safetensors` et déposer le dans le dossier `classification_political/model_eurobert_political`.
 
+Tous les scripts ne peuvent pas être exécutés directement dans n'importe quel ordre (le forfait free de dropbox propose un stockage limité...) mais tous peuvent être exécutés en suivant les étapes listées ci-dessus à partir de l'étape 3 (pas besoin de rescraper les données sur Reddit). Après avoir exécuté chaque étape une première fois, tous les scripts pourront être exécutés dans n'importe quel ordre. 
 
 
 

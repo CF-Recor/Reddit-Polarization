@@ -6,7 +6,7 @@ Il contient plusieurs sous-dossiers :
 - A. `annotations_political` contient les notebooks utilisés pour annoter le dataset d'entraînement et de test du modèle, ainsi que le dataset lui-même ;
 - B. `fine-tune-eurobert` contient le notebook utilisé pour l'entrainement ; 
 - C. `inference-eurobert-political`contient le notebook utilisé pour l'inférence sur tous les messages ;
-- D. `model_eurobert_political` contient les fichiers de configuration du modèle fine-tuné.
+- D. `model_eurobert_political` contient les fichiers de configuration du modèle fine-tuné, excepté le fichier `model.safetensors` où sont stockés les poids du modèle (fichier disponible dans la dropbox).
 
 Ce dossier permet d'obtenir le dataset `flat_political_interactions.csv` dans le dossier `clean_data`.
 
